@@ -1,0 +1,62 @@
+
+
+
+#Container-div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/4618040/pexels-photo-4618040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#weather-div{
+  width:55%;
+  background-color: black;
+  opacity: 0.8;
+  color:white;
+  border-radius: 5px;
+}
+
+#weather-div1{
+  background-image: url("https://images.pexels.com/photos/8371287/pexels-photo-8371287.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding-top:50px;
+  height: 450px;
+}
+
+#temp-font-size{
+  font-size:40px;
+}
+
+#temp-font-size span{
+  font-size:20px;
+}
+
+#weather-div2{
+  height: 450px;
+}
+
+#weather-icon{
+  width:80px;
+  height:80px;
+}
+
+
+#temp-details{
+  display:flex;
+  margin-top:20px;
+}
+
+#key-div{
+  width:50%;
+  
+}
+
+#value-div{
+  width:50%;
+  margin-right:10px;
+}
